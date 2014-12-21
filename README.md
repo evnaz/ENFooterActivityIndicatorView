@@ -20,7 +20,7 @@ Import UITableViewController's category to your table view controller:
 Set block for handle when table view goes to the bottom in viewDidLoad:
 ```objective-c
 [self setTableScrolledDownBlock:^void() {
-        //Put here your data loading logic here
+        //Put here data loading logic
 }];
 ```
 Use next methods to add or remove footer activity indicator view:
