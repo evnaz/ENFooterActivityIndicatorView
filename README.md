@@ -13,20 +13,20 @@ UITableView's footer activity indicator
 
 ##How to use
 
-1. Import UITableViewController's category to your table view controller:
-
-        #import "UITableViewController+ENFooterActivityIndicatorView.h"
-
-1. Set block for handle when table view goes to the bottom in viewDidLoad:
- 
-        [self setTableScrolledDownBlock:^void() {
-                //Put here your data loading logic here
-        }];
-
-1. Use next methods to add or remove footer activity indicator view:
-
-        if (![self footerActivityIndicatorView])
-                [self addFooterActivityIndicatorWithHeight:80.f];//Add ENFooterActivityIndicatorView to tableView's footer
-        [self removeFooterActivityIndicator]; // Removes tableView's footer view
-        
-1. See example project for more explanation.
+Import UITableViewController's category to your table view controller:
+```objective-c
+#import "UITableViewController+ENFooterActivityIndicatorView.h"
+```
+Set block for handle when table view goes to the bottom in viewDidLoad:
+```objective-c
+[self setTableScrolledDownBlock:^void() {
+        //Put here your data loading logic here
+}];
+```
+Use next methods to add or remove footer activity indicator view:
+```objective-c
+if (![self footerActivityIndicatorView])
+        [self addFooterActivityIndicatorWithHeight:80.f];//Add ENFooterActivityIndicatorView to tableView's footer
+[self removeFooterActivityIndicator]; // Removes tableView's footer view
+```
+See example project for more explanation.
