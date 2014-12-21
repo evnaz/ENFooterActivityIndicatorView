@@ -27,6 +27,8 @@ Use next methods to add or remove footer activity indicator view:
 ```objective-c
 if (![self footerActivityIndicatorView])
         [self addFooterActivityIndicatorWithHeight:80.f];//Add ENFooterActivityIndicatorView to tableView's footer
+```
+```objective-c
 [self removeFooterActivityIndicator]; // Removes tableView's footer view
 ```
 See example project for more explanation.
