@@ -6,9 +6,9 @@ UITableView's footer activity indicator
 ##Demo
 ![](http://i.imgur.com/EVpes91.gif)
 
-##What it does
+##What does it do
 
-* Add an activity indicator view to your table view
+* Add an activity indicator view for an UITableView
 * Handle when it scrolls to the bottom
 
 ##How to use
